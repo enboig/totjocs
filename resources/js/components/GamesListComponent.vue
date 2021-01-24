@@ -43,17 +43,6 @@
                     Data is coming ...
                 </div>
                 <div v-else>
-<!--
-                    <game
-                        :title="game.title"
-                        :description="game.description"
-                        :category="game.category"
-                        v-for="(game, index) in games"
-                        :key="index"
-                        class="row mb-4"
-                    >
-                    </game>
--->
 
                     <div class="card" style="width: 18rem;">
                         <ul class="list-group list-group-flush">
@@ -65,19 +54,14 @@
                         </ul>
                     </div>
                 </div>
-                
 
-
-
-
-
-
-
-
-
-
-
-
+                <div class="text-right">
+                    <ul class="nav navbar-nav fixed-bottom">
+                        <button type="button" class="btn btn-primary btn-rounded btn-icon">
+                            <i class="bi bi-dice-5"><font-awesome-icon icon="dice" /></i>
+                        </button>
+                    </ul>
+                </div>
             </div>            
         </div>
     </div>
