@@ -106,7 +106,7 @@ export default {
 
 <style scoped>
 #my-bubbles {
-        position: absolute;
+        position: fixed;
         bottom: 10px;
         right: 10px;
         width: 50px;
