@@ -55,13 +55,11 @@
                     </div>
                 </div>
 
-                <div class="text-right">
-                    <ul class="nav navbar-nav fixed-bottom">
+                    <ul id="my-bubbles" class="nav navbar-nav">
                         <button type="button" class="btn btn-primary btn-rounded btn-icon">
                             <i class="bi bi-dice-5"><font-awesome-icon icon="dice" /></i>
                         </button>
                     </ul>
-                </div>
             </div>            
         </div>
     </div>
@@ -106,4 +104,16 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+#my-bubbles {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 50px;
+}
+
+#my-bubbles button i {
+        font-size: 20px;
+
+}
+</style>
