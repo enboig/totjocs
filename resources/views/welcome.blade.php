@@ -12,6 +12,9 @@
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
+    <link rel="stylesheet" 
+    href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 

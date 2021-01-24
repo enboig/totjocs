@@ -43,17 +43,6 @@
                     Data is coming ...
                 </div>
                 <div v-else>
-<!--
-                    <game
-                        :title="game.title"
-                        :description="game.description"
-                        :category="game.category"
-                        v-for="(game, index) in games"
-                        :key="index"
-                        class="row mb-4"
-                    >
-                    </game>
--->
 
                     <div class="card" style="width: 18rem;">
                         <ul class="list-group list-group-flush">
@@ -65,19 +54,12 @@
                         </ul>
                     </div>
                 </div>
-                
 
-
-
-
-
-
-
-
-
-
-
-
+                    <ul id="my-bubbles" class="nav navbar-nav">
+                        <button type="button" class="btn btn-primary btn-rounded btn-icon">
+                            <i class="bi bi-dice-5"><font-awesome-icon icon="dice" /></i>
+                        </button>
+                    </ul>
             </div>            
         </div>
     </div>
@@ -122,4 +104,16 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+#my-bubbles {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 50px;
+}
+
+#my-bubbles button i {
+        font-size: 20px;
+
+}
+</style>
